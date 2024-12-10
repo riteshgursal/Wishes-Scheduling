@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Image Layer -->
+    <item android:drawable="@drawable/bg2" /> <!-- Your original background image -->
+
+    <!-- Blur Overlay Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#65FFFFFF" /> <!-- Semi-transparent white for blur effect -->
+        </shape>
+    </item>
+
+</layer-list>
